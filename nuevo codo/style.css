@@ -1,0 +1,26 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    border: 1px solid rgb(3, 0, 0);
+    background-color: aqua;
+}
+
+
+.ejemplo1 {
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px; 
+    border: 20px;
+    padding: 20px;
+    background-color: rgb(189, 120, 31);
+
+}
+
+.ejemplo2{
+margin: auto;
+
+
+}

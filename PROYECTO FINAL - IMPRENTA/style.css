@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+.navbar{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    height: 6rem;
+    font-size: 1.5rem;
+}    
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.5;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border: 0.5px solid rgb(109, 105, 105);
+    }
+
+   li:hover {
+    background-color: #111;
+    
+  }
+  
+   .active {
+    background-color: #852b2b;
+    float: right;
+    
+  }
+
+  .active:hover{
+      background-color: rgb(228, 21, 90);
+  }
+
+   a:visited { 
+    text-decoration: none; 
+    color: rgb(245, 245, 245); 
+    font-size: 40px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   }
+
+   .s1 {
+height:60rem;
+background-color: blueviolet;
+
+
+   }
+
+   #myVideo {
+    
+    display: grid;
+    right: 0;
+    bottom: 0;
+    min-width: 50%; 
+    min-height: 50%;
+    overflow: hidden;
+  }
