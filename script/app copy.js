@@ -16,8 +16,6 @@ window.onload = function () {
 
 
 function validateForm() {
-    
-
     let nombre = document.forms["myForm"]["nombre"];
     let telefono = document.forms["myForm"]["telefono"];
     let email = document.forms["myForm"]["email"];
@@ -45,15 +43,23 @@ function validateForm() {
     
       }
 
+        
+      if(psw == " " || pswValor.length < 8){
+        alert("Debe tener al menos 8 digitos");
+        psw.focus();
+     return false;
+      }
        
-       
+      
+      if (pswrepeat !== psw){
+          alert("Por favor Reescriba el password")
+          pswrepeat.focus();
+          return false;
+      }
+
       return true
 
     }
  
 
     
-    function submitForm() {
-      let form = document.getElementById("myForm");
-      form.submit();
-  }

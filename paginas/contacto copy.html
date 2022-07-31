@@ -38,19 +38,15 @@
     
   
      
-  <form id="myForm" action="mailto:calchaquidigital@gmail.com" method="post" onsubmit="return validateForm()">
+  <form id="myForm" action="" method="get" onsubmit="return validateForm()">
 
         <div class="container">
         
-          <h1>Mensaje</h1>
-          <p>Por favor llene el formulario para que podamos contactarnos a la brevedad</p>
+          <h1>Registro</h1>
+          <p>Por favor llene el formulario para su registración</p>
           <div class="formu">
           <label for="nombre"><b>Nombre completo</b></label>
           <input type="text" placeholder="Nombre y Apellido" name="nombre" id="nombre">  
-         </div>
-         <div class="formu">
-          <label for="nombre"><b>Empresa</b></label>
-          <input type="text" placeholder="empresa" name="empresa" id="empresa">  
          </div>
           <div class="formu">
           <label for="telefono"><b>Teléfono</b></label>
@@ -60,28 +56,29 @@
           <label for="email"><b>Email</b></label>
           <input type="text" placeholder="Aquí tu @email" name="email" id="email" >
             </div>
-            <div class="formu">
-              <label for="asunto"><b>Asunto</b></label>
-              <input type="text" placeholder="Asunto del mensaje" name="asunto" id="asunto" >
-                </div>
-
           <div class="formu">
-          <label for="mensaje" class="colocar_mensaje">Mensaje
-          <span class="obligatorio">*</span></label>                     
-          <textarea name="introducir_mensaje" class="texto_mensaje" 
-          id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-          </div>
-        
-       
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Mayuscula, numero y caracter especial" name="psw" id="psw">
+           </div>
+          <div class="formu">
+          <label for="psw-repeat"><b>Repetir Password</b></label>
+          <input type="password" placeholder="repetir password" name="pswrepeat" id="pswrepeat">
+           </div>
+           
           
           <p>Al crear una cuenta Ud. adhíere a nuestros <a href="../paginas/export.html">Terminos & Condiciones</a>.</p>
       
-          <button type="submit" class="registerbtn"><a href="#" onclick="submitForm()">Enviar </a></button>
+          <button type="submit" class="registerbtn">Register</button>
         </div>
         
-       
+        <div class="container signin">
+          <p>Ya tiene su cuenta? <a href="#">Sign in</a>.</p>
+        </div>
+        <div id="error"></div>
+      </form>
+    </div>
     <footer>
-      <div> <p class="head-dire" style="color: rgb(221, 219, 204); text-shadow: black 2px 1px;">
+      <div> <p class="head-dire">
         Alberti 5802 | Mar del Plata | 
         Tel. 0223 470.3942 | Cel. 223 154.906240 |
         calchaquidigital@gmail.com 

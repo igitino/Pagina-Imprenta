@@ -1,0 +1,21 @@
+
+   .nav{
+    background-color: aqua;
+   }
+   
+   
+   .logo-image{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        overflow: hidden;
+            }
+    
+    .img-fluid{
+        height: 4rem;
+        margin: 1rem;
+       
+        animation: 
+          movete 10s linear infinite alternate;
+       
+             }
