@@ -1,21 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,700;1,900&display=swap');
 
-   .nav{
-    background-color: aqua;
-   }
-   
-   
+.nav{
+    font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: medium;}
+
    .logo-image{
         width: 100%;
         height: auto;
         object-fit: cover;
-        overflow: hidden;
-            }
+        overflow: hidden;}
     
     .img-fluid{
-        height: 4rem;
+        height: 6rem;
+        overflow:visible;
         margin: 1rem;
-       
-        animation: 
-          movete 10s linear infinite alternate;
-       
-             }
+        position: relative;
+        box-shadow: rgb(102, 100, 100) 4px 4px 4px;}
+
+      .container{
+        background-color: rgb(190, 188, 188);
+        font-family: "Raleway" sans-serif;
+      }
