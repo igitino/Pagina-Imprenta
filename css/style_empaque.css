@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,700;1,900&display=swap');
+*{
+  margin: 0;
+}
+
 
 .nav{
     font-family: "Raleway", sans-serif;
@@ -19,7 +23,51 @@
         position: relative;
         box-shadow: rgb(102, 100, 100) 4px 4px 4px;}
 
-      .container{
+      #conta{
         background-color: rgb(190, 188, 188);
         font-family: "Raleway" sans-serif;
+        margin-top:5rem;
+        padding: 5rem;
       }
+
+      #conta .img-fluid{ 
+        max-width: 50%; 
+        height: 10%;
+        overflow: hidden;
+        object-fit: cover;
+      }
+
+      .card{
+        width: 35rem;
+
+        background-color: antiquewhite;
+        padding: 2rem;
+
+      }
+
+      .card-img-top{
+      width: auto;
+      height: 20rem;
+
+      }
+
+      .card{
+        border: solid red 2px;
+      }
+
+      .col-sm4{
+        padding: 5rem;
+      }
+
+
+      
+#popup {
+  z-index: 100;
+  display:none;
+  position:fixed;
+  margin:0 auto;
+  top: 30%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 50px 2px #000;
+}
