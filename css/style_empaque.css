@@ -16,18 +16,22 @@
         object-fit: cover;
         overflow: hidden;}
     
-    .img-fluid{
+    #img-fluid{
         height: 6rem;
         overflow:visible;
         margin: 1rem;
         position: relative;
-        box-shadow: rgb(102, 100, 100) 4px 4px 4px;}
+        box-shadow: rgb(102, 100, 100) 4px 4px 4px;
+       
+      }
+       
 
       #conta{
-        background-color: rgb(190, 188, 188);
+        background-color: rgb(255, 255, 255);
         font-family: "Raleway" sans-serif;
         margin-top:5rem;
         padding: 5rem;
+
       }
 
       #conta .img-fluid{ 
@@ -39,15 +43,26 @@
 
       .card{
         width: 35rem;
+        border-radius: 2rem;
 
-        background-color: antiquewhite;
-        padding: 2rem;
+        background-color: rgb(236, 234, 231);
+        padding: 3rem;
+        margin: 3rem;
 
       }
+      
+      .card:hover{
+        box-shadow: rgb(102, 100, 100) 4px 4px 4px;
+     }
 
-      .card-img-top{
+     .card>img:hover{
+      box-shadow: rgb(102, 100, 100) 4px 4px 4px;
+   }
+
+     .card-img-top{
       width: auto;
       height: 20rem;
+      border-radius: 2rem;
 
       }
 
@@ -70,4 +85,24 @@
   left: 80%;
   transform: translate(-50%, -50%);
   box-shadow: 0px 0px 50px 2px #000;
+}
+
+
+.img-fluid{
+
+max-width: 100%; 
+height: auto;
+border-radius: 2rem;
+}
+
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 70%;
 }
