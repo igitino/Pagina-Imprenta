@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,700;1,900&display=swap');
 *{
   margin: 0;
+ 
+  
 }
 
 
@@ -56,7 +58,8 @@
      }
 
      .card>img:hover{
-      box-shadow: rgb(102, 100, 100) 4px 4px 4px;
+      opacity: 0.85;
+      box-shadow: blueviolet 4px 4px 4px;
    }
 
      .card-img-top{
@@ -67,7 +70,7 @@
       }
 
       .card{
-        border: solid red 2px;
+        border: solid rgb(255, 255, 255) 2px;
       }
 
       .col-sm4{
@@ -102,7 +105,152 @@ border-radius: 2rem;
 .how-img 
 {
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .how-img img{
-    width: 70%;
+    width: 31rem;
+    height: 30rem;
+    margin-top: 5rem;
+}
+
+#film{
+  background-color: rgb(204, 243, 125);
+  justify-content: center;
+  align-items: center;
+}
+
+
+#bolsa{
+  background-color: rgb(172, 237, 237);
+
+}
+
+#cinta{
+  background-color: aquamarine;
+}
+
+.text-film{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: justify;
+  margin: 5rem;
+}
+
+.text-film>p{
+  font-size: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.text-film>ul{
+  font-size: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+
+}
+.social{
+  color:rgb(0, 0, 0);
+  font-size:3rem;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+ margin-top: 4rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social img{
+  height: 6rem;
+  padding: 0.51rem;
+  filter: grayscale(80%);
+}
+
+.social img:hover{
+  box-shadow: 1px 2px 2px 4px rgba(0, 0, 250, 0.2); 
+  border-radius: 1rem;
+  filter: grayscale(0%);
+}
+
+.copyright{
+ color:rgb(0, 0, 0);
+ font-size: 2rem;
+ font-family: "Raleway", sans-serif;
+ margin-top: -2rem;
+ 
+}
+
+footer {
+  background-color: #17140c;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+        }
+    .mb-3 text-dark p {color:  #d1cfcf}
+         
+footer h2{
+  font-weight:bolder ;
+}     
+
+
+
+
+@media screen and (max-width:767px ){
+ *{border: ;
+
+ } 
+   .row{
+   width:30rem;
+   margin-right:5rem;
+   }
+
+   .card{
+   width: 28rem;
+   border-radius: 2rem;
+   background-color: rgb(236, 234, 231);
+   padding:3rem;
+   margin-left: 1rem;
+  }
+  .col-sm-4{
+   width: 80%;
+   justify-content: center;
+     }
+
+  .card-img-top{
+   width: auto;
+   height: 15rem;
+   border-radius: 2rem;
+   margin-left: -1.5rem;
+   }
+
+  #conta{
+   background-color: rgb(255, 255, 255);
+   font-family: "Raleway" sans-serif;
+  }
+
+  .container-fluid{
+    width: 100%;
+  }
+  .col-md-7{
+    width: 35rem;
+  }
+
+  .text-film{
+    width:30rem;
+    margin-left: 2.5rem;
+  }
+  .how-img img{
+  max-width: 30rem;  
+  height: 30rem;  
+  margin-bottom: 5rem;
+  }
+
+  
+
+  }
+
+  @media (max-width:500px) {
+    
+    }
+    
+
+    @media screen and (max-width:407px){
+   
 }
