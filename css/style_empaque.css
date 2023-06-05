@@ -28,13 +28,11 @@
       }
        
 
-      #conta{
+#conta{
         background-color: rgb(255, 255, 255);
         font-family: "Raleway" sans-serif;
         margin-top:5rem;
-        padding: 5rem;
-
-      }
+        padding: 5rem; }
 
       #conta .img-fluid{ 
         max-width: 50%; 
@@ -54,7 +52,12 @@
 .card {
     margin-left: 1rem;
 }
-      
+    
+.card a {
+  background-color: brown;
+  border-radius: 2rem;
+}
+
       .card:hover{
         box-shadow: rgb(102, 100, 100) 4px 4px 4px;
      }
@@ -70,11 +73,7 @@
       border-radius: 1rem;
       }
 
-      .card{
-        border: solid rgb(255, 255, 255) 2px;
-      }
-
-      .col-sm4{
+    .col-sm4{
         padding: 5rem;
       }
 
@@ -206,6 +205,18 @@ footer h2{
 .text-center p{
   color: rgb(167, 162, 162);
 }
-  .
+ 
+.new5 {
+  border: 10px solid green;
+  border-radius: 5px;}
 
+  .text-dark{
+    text-decoration: none; 
+    color:rgb(166, 163, 163);
+    }
 
+    .text-dark2{
+      text-decoration: none; 
+      color:rgb(166, 163, 163);
+      font-size: 2rem;
+      }
