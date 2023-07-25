@@ -12,20 +12,18 @@
   font-weight: 800;
   font-size: medium;}
 
-   .logo-image{
+  .logo-image{
         width: 100%;
         height: auto;
         object-fit: cover;
         overflow: hidden;}
     
-    #img-fluid{
+#img-fluid{
         height: 6rem;
         overflow:visible;
         margin: 1rem;
         position: relative;
-        box-shadow: rgb(102, 100, 100) 4px 4px 4px;
-       
-      }
+        box-shadow: rgb(102, 100, 100) 4px 4px      }
        
 
 #conta{
